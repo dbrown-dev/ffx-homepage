@@ -1,0 +1,16 @@
+{
+  "manifest_version": 1,
+  "name": "David's Firefox NewTab Extention",
+  "version": "0.1",
+  "chrome_url_overrides": {
+      "newtab": "index.html"
+  },
+  "permissions": [
+      "bookmarks"
+  ],
+  "applications": {
+      "gecko": {
+          "strict_min_version": "54.0a1"
+      }
+  }
+}
